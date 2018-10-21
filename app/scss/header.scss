@@ -1,0 +1,125 @@
+@import 'zmienne';
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    margin: 0 auto;
+
+}
+
+#main-header {
+
+    height: 100vh;
+    background-image: url('../background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    #nav-bar {
+        display: flex;
+        flex-direction: row;
+
+        .finanse,
+        .phone {
+            margin: 0;
+            padding: 0;
+            flex-basis: 50%;
+        }
+
+        .phone {
+
+            padding-top: 20px;
+            display: flex;
+            flex-direction: row;
+
+            .number {
+                flex-basis: 30%;
+                text-align: right;
+                padding-right: 20px;
+                
+
+                .call-us {
+                    font-size: 12px;
+                }
+
+                p {
+                    margin: 0;
+                    text-align: left;
+                    font-size: 20px;
+
+                }
+            }
+
+            .icon {
+                transform: rotateY(180deg);
+                flex-basis: 70%;
+               align-content: flex-end;
+                margin-right: 10px;
+                
+            }
+        }
+
+        .finanse {
+            padding-left: 50px;
+            padding-top: 20px;
+        }
+    }
+
+    .finanse i {
+        color: $yellow;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 70px;
+        .let-data {
+            flex-basis: 20%;
+            padding-right: 10px;
+            h2{
+                text-align: left;
+                span{
+                    color: $yellow;
+                }
+            }
+            
+        }
+
+        fieldset {
+            background-color: $blue;
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+             padding: 10px;
+            border: 0;
+            h2{
+            font-size: 20px;
+            padding: 5px;
+            }         
+           
+            input,
+            textarea {
+                margin: 10px;
+                width: 90%;
+                padding: 10px;
+                  border:0;
+            }
+            .submit{
+                background-color: $yellow;
+                width: 25%;
+                height: 50%;
+                color: #000;
+                font-size: 18px;
+                font-weight: 500;
+              
+            }
+        }
+    }
+}
+
+;

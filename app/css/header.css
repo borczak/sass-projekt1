@@ -1,0 +1,79 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  margin: 0 auto; }
+
+#main-header {
+  height: 100vh;
+  background-image: url("../background.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #main-header #nav-bar {
+    display: flex;
+    flex-direction: row; }
+    #main-header #nav-bar .finanse,
+    #main-header #nav-bar .phone {
+      margin: 0;
+      padding: 0;
+      flex-basis: 50%; }
+    #main-header #nav-bar .phone {
+      padding-top: 20px;
+      display: flex;
+      flex-direction: row; }
+      #main-header #nav-bar .phone .number {
+        flex-basis: 30%;
+        text-align: right;
+        padding-right: 20px; }
+        #main-header #nav-bar .phone .number .call-us {
+          font-size: 12px; }
+        #main-header #nav-bar .phone .number p {
+          margin: 0;
+          text-align: left;
+          font-size: 20px; }
+      #main-header #nav-bar .phone .icon {
+        transform: rotateY(180deg);
+        flex-basis: 70%;
+        align-content: flex-end;
+        margin-right: 10px; }
+    #main-header #nav-bar .finanse {
+      padding-left: 50px;
+      padding-top: 20px; }
+  #main-header .finanse i {
+    color: #ecd407; }
+  #main-header h1 {
+    margin: 0; }
+  #main-header form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 70px; }
+    #main-header form .let-data {
+      flex-basis: 20%;
+      padding-right: 10px; }
+      #main-header form .let-data h2 {
+        text-align: left; }
+        #main-header form .let-data h2 span {
+          color: #ecd407; }
+    #main-header form fieldset {
+      background-color: #001d8a;
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      padding: 10px;
+      border: 0; }
+      #main-header form fieldset h2 {
+        font-size: 20px;
+        padding: 5px; }
+      #main-header form fieldset input,
+      #main-header form fieldset textarea {
+        margin: 10px;
+        width: 90%;
+        padding: 10px;
+        border: 0; }
+      #main-header form fieldset .submit {
+        background-color: #ecd407;
+        width: 25%;
+        height: 50%;
+        color: #000;
+        font-size: 18px;
+        font-weight: 500; }

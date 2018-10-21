@@ -1,0 +1,39 @@
+@import 'zmienne';
+
+footer {
+    background-color: $grey;
+    color: white;
+    padding: 20px;
+
+    .footer-container {
+        display: flex;
+        padding: 30px;
+
+        i {
+            background-color: $yellow;
+            color: #000;
+            padding: 15px;
+            transform: rotateY(180deg);
+        }
+
+        .footer-item {
+            flex-basis: 50%;
+            text-align: center;
+        }
+
+        i {
+            padding: 20px;
+        }
+    }
+
+    .footer-msg {
+        justify-content: flex-end;
+
+    }
+}
+
+.footer-p {
+    text-align: center;
+
+}
+}

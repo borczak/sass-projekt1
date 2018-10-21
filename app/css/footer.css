@@ -1,0 +1,24 @@
+footer {
+  background-color: #292929;
+  color: white;
+  padding: 20px; }
+  footer .footer-container {
+    display: flex;
+    flex-direction: row;
+    padding: 30px; }
+    footer .footer-container i {
+      background-color: #ecd407;
+      color: #000;
+      padding: 15px;
+      transform: rotateY(180deg); }
+    footer .footer-container .footer-number {
+      flex-basis: 50%;
+      text-align: center; }
+      footer .footer-container .footer-number i {
+        padding: 20px; }
+    footer .footer-container .footer-msg {
+      flex-basis: 50%;
+      justify-content: flex-end;
+      text-align: center; }
+  footer .footer-p {
+    text-align: center; }
